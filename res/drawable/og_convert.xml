@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/og_convert1" />
+    <item android:duration="200" android:drawable="@drawable/og_convert2" />
+    <item android:duration="200" android:drawable="@drawable/og_convert3" />
+    <item android:duration="200" android:drawable="@drawable/og_convert4" />
+    <item android:duration="200" android:drawable="@drawable/og_convert5" />
+    <item android:duration="200" android:drawable="@drawable/og_convert6" />
+    <item android:duration="200" android:drawable="@drawable/og_convert7" />
+    <item android:duration="200" android:drawable="@drawable/og_convert8" />
+</animation-list>

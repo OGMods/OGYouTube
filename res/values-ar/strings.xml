@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="OG_Connect">جاري الاتصال...</string>
+    <string name="OG_CNTR">غير قادر على الستكمال!</string>
+    <string name="OG_Download">جاري التحميل...</string>
+    <string name="OG_Stopped">تم الإلغاء</string>
+    <string name="OG_Complate">تم التحميل</string>
+    <string name="OG_NoNet">لا يوجد اتصال بالإنترنت</string>
+    <string name="OG_Error">حدث خطأ أثناء التحميل</string>
+    <string name="OG_Scan">جاري الفحص... الرجاء الانتظار</string>
+    <string name="OG_Fail">فشلت عملية الفحص</string>
+    <string name="OG_Load">جاري التحميل...</string>
+    <string name="OG_Space">لا يوجد مساحة كافية!</string>
+    <string name="OG_DC">حذف المكتملة</string>
+    <string name="OG_DF">مسار التحميل</string>
+    <string name="OG_CDF">تغيير مسار التحميل</string>
+    <string name="OG_Follow">تابعني على تويتر</string>
+    <string name="OG_About">حول البرنامج</string>
+    <string name="OG_OK">موافق</string>
+    <string name="OG_Cancel">إلغاء</string>
+    <string name="OG_UCF">إستخدام المسار الحالي</string>
+    <string name="OG_NotW">المسار المحدد غير قابل للكتابة</string>
+    <string name="OG_Open">فتح</string>
+    <string name="OG_Share">مشاركة</string>
+    <string name="OG_Delete">حذف</string>
+    <string name="OG_DeleteFL">حذف من القائمة</string>
+    <string name="OG_SR">إيقاف/إستنئاف</string>
+    <string name="OG_Redl">إعادة التحميل</string>
+    <string name="OG_FDeleted">تم حذف الملف</string>
+    <string name="OG_CDeleteF">غير قادر على الحذف!</string>
+    <string name="OG_Location">المسار:</string>
+    <string name="OG_Update">تحديث الرابط...</string>
+    <string name="OG_NoDl">لا يوجد تحميلات</string>
+    <string name="OG_OpenMP3">فتح ملف الصوت</string>
+    <string name="OG_ShareMP3">مشاركة ملف الصوت</string>
+    <string name="OG_Convert">تحويل إلى صوت</string>
+    <string name="OG_CConvert">إلغاء التحويل</string>
+    <string name="OG_NoPlayers">تعذر العثور على مشغل وسائط في هاتفك!</string>
+    <string name="OG_CError">{المحول} خطأ</string>
+    <string name="OG_CWait">{المحول} في الانتظار...</string>
+    <string name="OG_CCancel">{المحول} تم الإلغاء!</string>
+    <string name="OG_CFinish">{المحول} إكتمل التحويل</string>
+    <string name="OG_CConverting">{المحول} جاري التحويل...</string>
+    <string name="OG_FileNotFound">خطأ... الملف غير موجود</string>
+    <string name="OG_AboutText">برمجة : أسامة غريب \n\nتصميم : نبيل عوض</string>
+
+</resources>

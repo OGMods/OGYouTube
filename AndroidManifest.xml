@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ghareeb.YouTube"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/og_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name="com.ghareeb.YouTube.DownloadService" />
+        <service
+            android:name="com.ghareeb.YouTube.ConvertService"
+            android:exported="false"
+            android:process="com.ghareeb.YouTube.converter" />
+
+        <activity
+            android:name="com.ghareeb.YouTube.OGDownloadManager"
+            android:configChanges="locale"
+            android:icon="@drawable/og_icon"
+            android:label="@string/OG_notify"
+            android:theme="@style/OGTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
